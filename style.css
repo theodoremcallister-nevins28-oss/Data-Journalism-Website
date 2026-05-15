@@ -1,7 +1,17 @@
-body {
-  background-color: rgb(16, 110, 122);
+:root {
+    --c1: (#03045E)
+    --c2: (#023E8A)
+    --c3: (#0077B6)    
+    --c4: (#00B4D8)
+    --c5: (#48CAE4)
 }
 
-#img1{
-    margin-left: 800px
+body {
+    background-color: var(--c1);
+}
+
+
+
+nav {
+  background-color: var(--c5)
 }
