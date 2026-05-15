@@ -1,9 +1,9 @@
 :root {
-    --c1: (#03045E)
-    --c2: (#023E8A)
-    --c3: (#0077B6)    
-    --c4: (#00B4D8)
-    --c5: (#48CAE4)
+    --c1: (#03045E);
+    --c2: (#023E8A);
+    --c3: (#0077B6);   
+    --c4: (#00B4D8);
+    --c5: (#48CAE4);
 }
 
 body {
@@ -13,5 +13,6 @@ body {
 
 
 nav {
-  background-color: var(--c5)
+  background-color: var(--c5);
+  justify-content: space-between;
 }
