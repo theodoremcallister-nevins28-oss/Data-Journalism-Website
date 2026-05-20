@@ -1,18 +1,42 @@
 :root {
-    --c1: (#03045E);
-    --c2: (#023E8A);
-    --c3: (#0077B6);   
-    --c4: (#00B4D8);
-    --c5: (#48CAE4);
+  --c1: #03045E;
+  --c2: #023E8A;
+  --c3: #0077B6;   
+  --c4: #00B4D8;
+  --c5: #48CAE4;
 }
 
 body {
-    background-color: var(--c1);
+  background-color: var(--c5);
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 30px;
+
 }
 
-
-
 nav {
-  background-color: var(--c5);
-  justify-content: space-between;
+  background-color: var(--c3);
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+nav a {
+  padding: 0 20px;
+  padding-right: 30px;
+  background-color: var(--c3);
+  color: var(--c1);
+}
+
+main {
+    margin: 10px;
+    
+}
+
+.BigTitle {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 30px;
+}
+
+.SmallTitle {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 30px;
 }
